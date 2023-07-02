@@ -3,7 +3,7 @@ Maven Project, React JS, and Java Spring Boot.
 
 This program is able to solve your sliding block puzzle, in the fastest way possible!
 
-Algorithm used to achieve this: Breadth-Fist-Search.
+Algorithm used to achieve this: Breadth-First-Search.
 
 A user is able to create a puzzle using the front-end or is able to import their own. The rules on how to play are displayed on the front-end The back-end serves requests from the front-end.
 
