@@ -1,0 +1,24 @@
+.myImg{
+	object-fit: cover;
+    object-position: center;
+    height: 75vh;
+    width: 100%;
+    overflow: hidden;
+	
+}
+.carousel-caption {
+    position: relative;
+    left: auto;
+    right: auto;
+}
+.goalBlock{
+	
+	background-image: linear-gradient(to right, #00c3ff 0%, #ffff1c  51%, #00c3ff  100%);
+}
+.accordion-button{
+	background: radial-gradient(circle, rgba(174,227,238,1) 0%, rgba(148,208,233,1) 98%);
+}    
+         
+ 
+         
+         
