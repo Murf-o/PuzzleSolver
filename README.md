@@ -1,7 +1,7 @@
 # PuzzleSolver
 Maven Project, React JS, and Java Spring Boot.
 
-This program is able to solve your sliding block puzzle, in the fastest way possible!
+This program is able to give you the best solution to your sliding block puzzle!
 
 Algorithm used to achieve this: Breadth-First-Search.
 
