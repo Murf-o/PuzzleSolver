@@ -36,12 +36,12 @@ public class PuzzleService {
 	public PuzzleResponse handleCreatedPuzzle(CreatedPuzzleBody puzzleBody) {
 		SlidingBlockCreated solver = new SlidingBlockCreated();
 		PuzzleResponse puzzleR = solver.solvePuzzle(puzzleBody);
-		Optional<Puzzle> puzzleOpt = this.puzzleRepository.findPuzzleByToString(puzzleR.getToString());
-		if(puzzleOpt.isEmpty()) {
-			Puzzle puzzleToStore = new Puzzle(puzzleR);
-			puzzleToStore = this.puzzleRepository.save(puzzleToStore);
-			//System.out.println("SAVED");
-		}
+		// Optional<Puzzle> puzzleOpt = this.puzzleRepository.findPuzzleByToString(puzzleR.getToString());
+		// if(puzzleOpt.isEmpty()) {
+		// 	Puzzle puzzleToStore = new Puzzle(puzzleR);
+		// 	puzzleToStore = this.puzzleRepository.save(puzzleToStore);
+		// 	//System.out.println("SAVED");
+		// }
 		//System.out.println("returning");
 		return puzzleR;
 	}
@@ -56,12 +56,12 @@ public class PuzzleService {
 		if(puzzleR.getErrors() != null) {
 			return puzzleR;
 		}
-		Optional<Puzzle> puzzleOpt = this.puzzleRepository.findPuzzleByToString(puzzleR.getToString());
-		if(puzzleOpt.isEmpty()) {
-			Puzzle puzzleToStore = new Puzzle(puzzleR);
-			puzzleToStore = this.puzzleRepository.save(puzzleToStore);
-			//System.out.println("SAVED");
-		}
+		// Optional<Puzzle> puzzleOpt = this.puzzleRepository.findPuzzleByToString(puzzleR.getToString());
+		// if(puzzleOpt.isEmpty()) {
+		// 	Puzzle puzzleToStore = new Puzzle(puzzleR);
+		// 	puzzleToStore = this.puzzleRepository.save(puzzleToStore);
+		// 	//System.out.println("SAVED");
+		// }
 	//	System.out.println("returning");
 		return puzzleR;
 	}
