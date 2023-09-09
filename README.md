@@ -1,9 +1,12 @@
 # PuzzleSolver
 Maven Project, React JS, and Java Spring Boot.
+I have a machine on AWS EC2 able to run this, currently off due to price.
+More than glad to turn it on if needed, or you can of course just clone this repo!
 
 This program is able to give you the best solution to your sliding block puzzle!
 
 Algorithm used to achieve this: Breadth-First-Search.
+
 
 A user is able to create a puzzle using the front-end or is able to import their own. The rules on how to play are displayed on the front-end The back-end serves requests from the front-end.
 
