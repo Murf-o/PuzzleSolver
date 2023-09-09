@@ -1,10 +1,9 @@
 # PuzzleSolver
 Maven Project, React JS, and Java Spring Boot.
-I have a machine on AWS EC2 able to run this, currently off due to price.
+I have a machine on AWS EC2 that runs this, currently off to avoid costs.
 More than glad to turn it on if needed, or you can of course just clone this repo!
 
 This program is able to give you the best solution to your sliding block puzzle!
-
 Algorithm used to achieve this: Breadth-First-Search.
 
 
@@ -20,6 +19,6 @@ mvn package
 java -jar target\PuzzleSolver-0.0.1-SNAPSHOT.jar
 Important Note: The server saves data to a MySQL database. To connect to your table, go to the resources folder and into the application.properties file-- insert your username and password, make necessary changes (port etc) There is one table named "puzzles" with columns as follow: -Id: bigint -initial_grid: varchar(3000) -final_grid: varchar(3000) -moves: varchar(3000) -warnings: varchar(3000) -solvable: bit(1) -row_size: int -column_size: int -to_string: varchar(3000)
 
-You don't need the database to run the server, it's already commented out, feel free to put it back in and whatever you'd like with it. Thank you!
+You don't need the database to run the server, it's already commented out, feel free to put it back in and do whatever you'd like with it. Thank you!
 
 Author: Sebastian Barroso
